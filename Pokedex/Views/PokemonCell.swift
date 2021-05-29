@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import Kingfisher
 
 struct PokemonCell: View {
     
@@ -32,7 +33,7 @@ struct PokemonCell: View {
                         )
                         .frame(width: 100, height: 24)
                     
-                    Image(pokemon.imageUrl)
+                    KFImage(URL(string: pokemon.imageUrl))
                         .resizable()
                         .scaledToFit()
                         .frame(width: 68, height: 68)
@@ -40,9 +41,9 @@ struct PokemonCell: View {
                 }
             }
         }
-        .background(Color.green)
+        .background(pokemon.backgroundColor)
         .cornerRadius(12)
-        .shadow(color: .green, radius: 6, x: 0.0, y: 0.0)
+        .shadow(color: pokemon.backgroundColor, radius: 6, x: 0.0, y: 0.0)
     }
 }
 
