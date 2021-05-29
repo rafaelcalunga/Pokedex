@@ -8,8 +8,20 @@
 import SwiftUI
 
 struct PokedexView: View {
+    
+    private let gridItems = [GridItem(.flexible()), GridItem(.flexible())]
+    
     var body: some View {
-        Text("Hello, World!")
+        NavigationView {
+            ScrollView {
+                LazyVGrid(columns: gridItems, spacing: 20) {
+                    ForEach(0..<100) { _ in
+                        PokemonCell()
+                    }
+                }
+            }
+            .navigationTitle("Pokedex")
+        }
     }
 }
 
