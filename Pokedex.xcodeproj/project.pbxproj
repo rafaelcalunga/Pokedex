@@ -27,6 +27,7 @@
 		6DB15A0D2662E9B700258745 /* PokedexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexView.swift; sourceTree = "<group>"; };
 		6DB15A102662ED9A00258745 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		6DB15A132662F2CC00258745 /* PokemonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewModel.swift; sourceTree = "<group>"; };
+		6DC056C1268B619200FFEBC5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +47,7 @@
 			children = (
 				6DB159FA2662E3F500258745 /* Pokedex */,
 				6DB159F92662E3F500258745 /* Products */,
+				6DC056C1268B619200FFEBC5 /* README.md */,
 			);
 			sourceTree = "<group>";
 		};
